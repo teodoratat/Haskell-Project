@@ -1,0 +1,110 @@
+camera {
+    look_from 0,2,0.5 
+    look_at 0,0.5,-0.2 
+    v_up 0,1,0 
+    vert_fov 90 
+    aperture 0.2 
+    focus_distance 1.5
+}
+
+sphere {
+    center 0,-100,-1
+    radius 100
+    mat {
+        diffuse {
+            color #cccccc
+        }
+    }
+}
+
+sphere {
+    center -1.2,0.5,0.2
+    radius 0.5
+    mat {
+        diffuse {
+            color #b21919
+        }
+    }
+}
+
+sphere {
+    center 0,0.5,0.2
+    radius 0.5
+    mat {
+        metallic {
+            color #1919cc
+        }
+    }
+}
+
+sphere {
+    center 1.2,0.5,0.2
+    radius 0.5
+    mat {
+        metallic {
+            color #cccccc
+            fuzz 0.3
+        }
+    }
+}
+
+sphere {
+    center -1.2,0.5,-1
+    radius 0.5
+    mat {
+        metallic {
+            color #cc9933
+        }
+    }
+}
+
+sphere {
+    center 0,0.5,-1
+    radius 0.5
+    mat {
+        diffuse {
+            color #19b219
+        }
+    }
+}
+
+sphere {
+    center 1.2,0.5,-1
+    radius 0.5
+    mat {
+        dielectric {
+            ir 1.5
+        }
+    }
+}
+
+sphere {
+    center -1.2,0.5,-2.2
+    radius 0.5
+    mat {
+        dielectric {
+            ir 2.5
+        }
+    }
+}
+
+sphere {
+    center 0,0.5,-2.2
+    radius 0.5
+    mat {
+        metallic {
+            color #4cb2b2
+        }
+    }
+}
+
+sphere {
+    center 1.2,0.5,-2.2
+    radius 0.5
+    mat {
+        metallic {
+            color #b219b2
+            fuzz 0.5
+        }
+    }
+}

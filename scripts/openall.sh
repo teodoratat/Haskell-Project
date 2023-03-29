@@ -1,0 +1,1 @@
+find ../src -type f -name "*.hs" | xargs -I % -t sh -c 'code -g %'

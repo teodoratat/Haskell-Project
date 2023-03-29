@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Elm-Project",
+			"path": "../../Elm-Project/Elm-Project"
+		}
+	],
+	"settings": {}
+}

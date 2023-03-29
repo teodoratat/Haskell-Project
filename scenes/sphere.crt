@@ -1,0 +1,18 @@
+camera {
+    look_from 0,2,0.5
+    look_at 0,0.5,0
+    v_up 0,1,0
+    vert_fov 90
+    aperture 0.2
+    focus_distance 1.5
+}
+
+sphere {
+    center 0,0.5,0.2
+    radius 0.5
+    mat {
+        diffuse {
+            color #b21919
+        }
+    }
+}

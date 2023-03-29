@@ -1,0 +1,7 @@
+cradle:
+  multi:
+    - path: "./"
+      config:
+        cradle:
+          direct:
+            arguments: ["Main.hs"]
